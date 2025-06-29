@@ -9,8 +9,8 @@ A C++ implementation to minimize transactions between banks with varying payment
 
 ## How It Works
 1) Input:
-  ○ List of banks and their payment methods.
-  ○ List of transactions (debtor, creditor, amount).
+  \○ List of banks and their payment methods.
+  \○ List of transactions (debtor, creditor, amount).
    
 2) Processing:
   ○ Computes net amounts for each bank.
