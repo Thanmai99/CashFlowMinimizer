@@ -8,16 +8,16 @@ A C++ implementation to minimize transactions between banks with varying payment
 - **World Bank** acts as an intermediary for banks with no common payment method.
 
 ## How It Works
-1) Input:
+1) **Input**:
     - List of banks and their payment methods.
     - List of transactions (debtor, creditor, amount).
    
-2) Processing:
+2) **Processing**:
     - Computes net amounts for each bank.
     - Settles debts greedily, prioritizing banks with shared payment methods.
     - Uses the World Bank if no common method exists.
 
-3) Output:
+3) **Output**:
     - Optimized transaction list with payment methods.
 
 ## Code Overview
